@@ -6,10 +6,12 @@
 
 html {
     font-size: 10px;
-    background: url('./background.jpg');
+    background: url('./background.jpg');  /* Steve Harvey */
     background-size: cover;
     font-family:sans-serif;
 }
+/* All Photos Licensed Under Creative Commons 2.0 */
+/* https://creativecommons.org/licenses/by/2.0/Legalcode */
 
 .keys {
     display: flex;
