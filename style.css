@@ -20,42 +20,40 @@ html {
 
 kbd {
     display: block;
-    font-size: 5rem;
-    text-align: center;
-    margin-bottom: 1.5rem;
+    font-size: 8rem;
+    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    text-shadow: 0 0 .5rem black;
 }
 
 .red-key, .orange-key, .yellow-key {
     border: .4rem solid black;
     border-radius: 1rem;
-    font-size: 1rem;
     padding: 1.75rem 1.75rem;
     margin: 2rem;
-    width: 10rem;
-    height: 20rem;
-    font-size: 1.5rem;
+    width: 11.75rem;
+    height: 22.5rem;
+    font-size: 1.35rem;
     color: #E6E8BF;
-    text-shadow: 0 0 .5rem black;
     text-align: center;
 }
 
 
 .red-key {
-    /* background: #DD1D00; */
-    background-color:rgba(221, 29, 0, 0.9)
+    background-color:rgba(221, 29, 0, 0.85);
 }
 
 .orange-key {
-    /* background: #F27900; */
-    background-color:rgba(242, 121, 0, 0.9)
+    background-color:rgba(242, 121, 0, 0.85);
 }
 
 .yellow-key {
-    /* background: #DDDA00; */
-    background-color:rgba(221, 218, 0, 0.9)
+    background-color:rgba(221, 218, 0, 0.85);
 }
 
 .sound {
     text-transform: uppercase;
-    letter-spacing: .15rem;;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+    color: black;
 } 
