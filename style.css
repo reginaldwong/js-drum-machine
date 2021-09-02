@@ -22,7 +22,7 @@ html {
 
 kbd {
     display: block;
-    font-size: 8rem;
+    font-size: 9rem;
     margin-top: 1rem;
     margin-bottom: 3.5rem;
     text-shadow: 0 0 .5rem black;
@@ -38,8 +38,14 @@ kbd {
     font-size: 1.35rem;
     color: #E6E8BF;
     text-align: center;
+    transition: all .07s;
 }
 
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 10px #ffc600;
+}
 
 .red-key {
     background-color:rgba(221, 29, 0, 0.85);
@@ -59,3 +65,4 @@ kbd {
     font-weight: bolder;
     color: black;
 } 
+
